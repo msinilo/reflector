@@ -1,0 +1,126 @@
+﻿Build started 2010-01-06 19:30:04.
+     1>Project "C:\!projects\rde2\core\build\win32\core.vcxproj" on node 2 (build target(s)).
+     1>_PrepareForBuild:
+         Creating "C:\!projects\rde2\core\build\win32\Debug\core.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I../../.. /ZI /nologo /W4 /WX /Od /Oy- /D WIN32 /D _DEBUG /D _CONSOLE /D _MBCS /GF- /Gm- /RTCc /RTC1 /MDd /GS /Gy /fp:fast /fp:except- /Zc:wchar_t /Zc:forScope /GR- /openmp- /Fo"C:\!projects\rde2\core\build\win32\Debug\\" /Fd"C:\!projects\rde2\core\build\win32\Debug\vc100.pdb" /Gd /TP /wd4511 /wd4512 /wd4127 /wd4996 /analyze- /errorReport:prompt ..\..\win32\Win32Mutex.cpp ..\..\win32\Win32Semaphore.cpp ..\..\win32\Win32System.cpp ..\..\win32\Win32Thread.cpp ..\..\win32\Win32ThreadEvent.cpp ..\..\win32\Win32Timer.cpp ..\..\msvc\MsvcCPU.cpp ..\..\Console.cpp ..\..\CRC32.cpp ..\..\MemManager.cpp ..\..\Random.cpp ..\..\RdeAssert.cpp ..\..\RefCounted.cpp ..\..\System.cpp ..\..\ThreadProfiler.cpp  /J
+         Win32Mutex.cpp
+         Win32Semaphore.cpp
+         Win32System.cpp
+         Win32Thread.cpp
+         Win32ThreadEvent.cpp
+         Win32Timer.cpp
+         MsvcCPU.cpp
+         Console.cpp
+         CRC32.cpp
+         MemManager.cpp
+         Random.cpp
+         RdeAssert.cpp
+         RefCounted.cpp
+         System.cpp
+         ThreadProfiler.cpp
+         Generating Code...
+       Lib:
+         C:\Program Files\Microsoft Visual Studio 10.0\VC\bin\Lib.exe /OUT:"C:\!projects\rde2\core\build\win32\Debug\core.lib" /NOLOGO "C:\!projects\rde2\core\build\win32\Debug\Win32Mutex.obj" "C:\!projects\rde2\core\build\win32\Debug\Win32Semaphore.obj" "C:\!projects\rde2\core\build\win32\Debug\Win32System.obj" "C:\!projects\rde2\core\build\win32\Debug\Win32Thread.obj" "C:\!projects\rde2\core\build\win32\Debug\Win32ThreadEvent.obj" "C:\!projects\rde2\core\build\win32\Debug\Win32Timer.obj" "C:\!projects\rde2\core\build\win32\Debug\MsvcCPU.obj" "C:\!projects\rde2\core\build\win32\Debug\Console.obj" "C:\!projects\rde2\core\build\win32\Debug\CRC32.obj" "C:\!projects\rde2\core\build\win32\Debug\MemManager.obj" "C:\!projects\rde2\core\build\win32\Debug\Random.obj" "C:\!projects\rde2\core\build\win32\Debug\RdeAssert.obj" "C:\!projects\rde2\core\build\win32\Debug\RefCounted.obj" "C:\!projects\rde2\core\build\win32\Debug\System.obj" "C:\!projects\rde2\core\build\win32\Debug\ThreadProfiler.obj" /IGNORE:4221 /IGNORE:4006 
+         core.vcxproj -> C:\!projects\rde2\core\build\win32\Debug\core.lib
+       _AfterBuild:
+         Deleting file "C:\!projects\rde2\core\build\win32\Debug\core.unsuccessfulbuild".
+         Touching "C:\!projects\rde2\core\build\win32\Debug\core.lastbuildstate".
+     1>Done Building Project "C:\!projects\rde2\core\build\win32\core.vcxproj" (build target(s)).
+
+Project Performance Summary:
+    12707 ms  C:\!projects\rde2\core\build\win32\core.vcxproj   1 calls
+              12707 ms  build                                      1 calls
+
+Target Performance Summary:
+        0 ms  _ClCompile                                 1 calls
+        0 ms  _Manifest                                  1 calls
+        0 ms  AfterBuildCompileEvent                     1 calls
+        0 ms  _Midl                                      1 calls
+        0 ms  _CopyFilesMarkedCopyLocal                  1 calls
+        0 ms  SelectCustomBuild                          1 calls
+        0 ms  ComputeMIDLGeneratedCompileInputs          1 calls
+        0 ms  ComputeCLCompileGeneratedSbrFiles          1 calls
+        0 ms  AfterLib                                   1 calls
+        0 ms  BuildLink                                  1 calls
+        0 ms  AfterMidl                                  1 calls
+        0 ms  PreLinkEvent                               1 calls
+        0 ms  _Deploy                                    1 calls
+        0 ms  BeforeLib                                  1 calls
+        0 ms  BuildGenerateSources                       1 calls
+        0 ms  MakeDirsForResourceCompile                 1 calls
+        0 ms  ComputeCLGeneratedLibInputs                1 calls
+        0 ms  _Xsd                                       1 calls
+        0 ms  AssignCppReferenceTargets                  1 calls
+        0 ms  PlatformPrepareForBuild                    1 calls
+        0 ms  ResolveReferences                          1 calls
+        0 ms  SelectClCompile                            1 calls
+        0 ms  AfterClCompile                             1 calls
+        0 ms  _ResourceCompile                           1 calls
+        0 ms  _GenerateXMLData                           1 calls
+        0 ms  ComputeRCGeneratedLibInputs                1 calls
+        0 ms  ComputeRCOutputs                           1 calls
+        0 ms  _Appverifier                               1 calls
+        0 ms  AfterResourceCompile                       1 calls
+        0 ms  AfterBuildGenerateSources                  1 calls
+        0 ms  BeforeResolveReferences                    1 calls
+        0 ms  _XdcMake                                   1 calls
+        0 ms  _ALink                                     1 calls
+        0 ms  Build                                      1 calls
+        0 ms  BeforeResourceCompile                      1 calls
+        0 ms  _SplitProjectReferencesByFileExistence     1 calls
+        0 ms  MakeDirsForBscMake                         1 calls
+        0 ms  _Lib                                       1 calls
+        0 ms  AfterResolveReferences                     1 calls
+        0 ms  BeforeClCompile                            1 calls
+        0 ms  _SelectedFiles                             1 calls
+        0 ms  BuildCompile                               1 calls
+        0 ms  AfterBuildGenerateSourcesEvent             1 calls
+        0 ms  BeforeBuildGenerateSources                 1 calls
+        0 ms  _GenerateWebServiceProxy                   1 calls
+        0 ms  _CopySourceItemsToOutputDirectory          1 calls
+        1 ms  ComputeLibAdditionalOptions                1 calls
+        1 ms  _BscMake                                   1 calls
+        1 ms  ComputeCustomBuildOutput                   1 calls
+        1 ms  DoLibOutputFilesMatch                      1 calls
+        1 ms  CopyFilesToOutputDirectory                 1 calls
+        1 ms  ComputeLibInputsFromProject                1 calls
+        1 ms  MakeDirsForXdcMake                         1 calls
+        1 ms  AssignTargetPaths                          1 calls
+        1 ms  PrepareForBuild                            1 calls
+        1 ms  ComputeCLInputPDBName                      1 calls
+        1 ms  GetFrameworkPaths                          1 calls
+        1 ms  MakeDirsForCl                              1 calls
+        1 ms  PreBuildEvent                              1 calls
+        1 ms  _CheckForCompileOutputs                    1 calls
+        1 ms  PostBuildEvent                             1 calls
+        1 ms  MakeDirsForMidl                            1 calls
+        1 ms  MakeDirsForLib                             1 calls
+        1 ms  _CheckForInvalidConfigurationAndPlatform   1 calls
+        1 ms  ComputeCLCompileGeneratedXDCFiles          1 calls
+        2 ms  GetCopyToOutputDirectoryItems              1 calls
+        2 ms  _AfterBuild                                1 calls
+        3 ms  ResolveProjectReferences                   1 calls
+        4 ms  ComputeCLOutputs                           1 calls
+        5 ms  _DetermineManagedStateFromCL               1 calls
+        9 ms  _PrepareForBuild                           1 calls
+       21 ms  SetBuildDefaultEnvironmentVariables        1 calls
+      158 ms  Lib                                        1 calls
+    12477 ms  ClCompile                                  1 calls
+
+Task Performance Summary:
+        0 ms  ReadLinesFromFile                          1 calls
+        1 ms  Copy                                       4 calls
+        1 ms  Delete                                     2 calls
+        1 ms  Message                                    3 calls
+        2 ms  AssignTargetPath                           5 calls
+        3 ms  MakeDir                                    9 calls
+        4 ms  WriteLinesToFile                           1 calls
+        4 ms  Touch                                      2 calls
+       18 ms  SetEnv                                     4 calls
+      157 ms  LIB                                        1 calls
+    12468 ms  CL                                         1 calls
+
+Build succeeded.
+
+Time Elapsed 00:00:12.76

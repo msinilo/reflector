@@ -1,0 +1,51 @@
+type Vector3d
+  float x [-1, 1] "X coordinate"
+	float y "Y coordinate"
+	float z "Z coordinate"
+end 
+
+type Color
+	float r [-1, 1] "R"
+	float g [-1, 1]
+	float b [-1, 1] "B"
+end
+
+type Entity
+	Vector3d position "entity position"
+	uint32 i "counter"
+	int8 c "char"
+end
+
+type SuperBar
+  vtable
+
+	uint32				i
+	float*				p "ptr"
+	bool	  			b "b"
+	int8					s "some char"
+	Color	  			color "Color of something"
+	SuperBar*			psb "Other SuperBar"
+	vector<int32>		v "Vector of ints"
+end
+
+type Bar : SuperBar
+	enum TestEnum
+		FIRST = 0,
+		SECOND,
+		LAST = 10
+	end
+
+  float					f
+  uint8				  c
+	uint16				shortArray[10] "array of shorts"
+	Vector3d			position "Position"
+	Vector3d*		  porient "Orientation"
+	SuperBar		  sb
+	SuperBar**		pb
+	TestEnum 			en "Some enum"
+end
+
+type CircularPtrTest
+	CircularPtrTest*	ptr
+	int32					val
+end

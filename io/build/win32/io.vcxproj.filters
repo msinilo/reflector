@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="win32">
+      <UniqueIdentifier>{0867418c-ea3a-4a3e-9a94-e1d792a61596}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\ChunkStreamReader.h" />
+    <ClInclude Include="..\..\ChunkStreamWriter.h" />
+    <ClInclude Include="..\..\FileStream.h" />
+    <ClInclude Include="..\..\IoSys.h" />
+    <ClInclude Include="..\..\MemoryStream.h" />
+    <ClInclude Include="..\..\Stream.h" />
+    <ClInclude Include="..\..\StreamReader.h" />
+    <ClInclude Include="..\..\StreamWriter.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\ChunkStreamReader.cpp" />
+    <ClCompile Include="..\..\ChunkStreamWriter.cpp" />
+    <ClCompile Include="..\..\FileStream.cpp" />
+    <ClCompile Include="..\..\MemoryStream.cpp" />
+    <ClCompile Include="..\..\StreamReader.cpp" />
+    <ClCompile Include="..\..\StreamWriter.cpp" />
+    <ClCompile Include="..\..\win32\IoSys.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

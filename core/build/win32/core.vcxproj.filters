@@ -1,0 +1,87 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="msvc">
+      <UniqueIdentifier>{c25d1b28-0bfa-45da-b1ae-9d8083f016c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="win32">
+      <UniqueIdentifier>{9c5770df-eef9-4059-bcc1-62f33eab997c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Atomic.h" />
+    <ClInclude Include="..\..\Backoff.h" />
+    <ClInclude Include="..\..\BitMath.h" />
+    <ClInclude Include="..\..\Config.h" />
+    <ClInclude Include="..\..\Console.h" />
+    <ClInclude Include="..\..\CPU.h" />
+    <ClInclude Include="..\..\CRC32.h" />
+    <ClInclude Include="..\..\LockGuard.h" />
+    <ClInclude Include="..\..\MaxAlign.h" />
+    <ClInclude Include="..\..\MemManager.h" />
+    <ClInclude Include="..\..\Meta.h" />
+    <ClInclude Include="..\..\msvc\MsvcConfig.h">
+      <Filter>msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\msvc\MsvcCPU.h">
+      <Filter>msvc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Mutex.h" />
+    <ClInclude Include="..\..\OwnedPtr.h" />
+    <ClInclude Include="..\..\Random.h" />
+    <ClInclude Include="..\..\RdeAssert.h" />
+    <ClInclude Include="..\..\RefCounted.h" />
+    <ClInclude Include="..\..\RefPtr.h" />
+    <ClInclude Include="..\..\ScopedPtr.h" />
+    <ClInclude Include="..\..\System.h" />
+    <ClInclude Include="..\..\Thread.h" />
+    <ClInclude Include="..\..\ThreadEvent.h" />
+    <ClInclude Include="..\..\ThreadProfiler.h" />
+    <ClInclude Include="..\..\win32\Win32Interlocked.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\win32\Win32System.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\win32\Win32ThreadEvent.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\win32\Win32Timer.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\win32\Windows.h">
+      <Filter>win32</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Console.cpp" />
+    <ClCompile Include="..\..\CRC32.cpp" />
+    <ClCompile Include="..\..\MemManager.cpp" />
+    <ClCompile Include="..\..\msvc\MsvcCPU.cpp">
+      <Filter>msvc</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Random.cpp" />
+    <ClCompile Include="..\..\RdeAssert.cpp" />
+    <ClCompile Include="..\..\RefCounted.cpp" />
+    <ClCompile Include="..\..\System.cpp" />
+    <ClCompile Include="..\..\ThreadProfiler.cpp" />
+    <ClCompile Include="..\..\win32\Win32Mutex.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\win32\Win32Semaphore.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\win32\Win32System.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\win32\Win32Thread.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\win32\Win32ThreadEvent.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\win32\Win32Timer.cpp">
+      <Filter>win32</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

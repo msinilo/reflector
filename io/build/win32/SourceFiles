@@ -1,0 +1,15 @@
+..\..\ChunkStreamReader.h
+..\..\ChunkStreamWriter.h
+..\..\FileStream.h
+..\..\IoSys.h
+..\..\MemoryStream.h
+..\..\Stream.h
+..\..\StreamReader.h
+..\..\StreamWriter.h
+..\..\ChunkStreamReader.cpp
+..\..\ChunkStreamWriter.cpp
+..\..\FileStream.cpp
+..\..\win32\IoSys.cpp
+..\..\MemoryStream.cpp
+..\..\StreamReader.cpp
+..\..\StreamWriter.cpp
